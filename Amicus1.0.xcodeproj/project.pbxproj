@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F1B7EFE1AA2659B008CEF16 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B7EFD1AA2659B008CEF16 /* TableViewCell.m */; };
+		2F3A883A1AA5122C00FB503F /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A88391AA5122C00FB503F /* FacebookSDK.framework */; };
+		2F3A883F1AA512C300FB503F /* MoxtraConversationResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2F3A883C1AA512C300FB503F /* MoxtraConversationResources.bundle */; };
+		2F3A88401AA512C300FB503F /* MoxtraConversationSDK in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A883D1AA512C300FB503F /* MoxtraConversationSDK */; };
+		2F3A88421AA513BD00FB503F /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A88411AA513BD00FB503F /* libc++.dylib */; };
+		2F3A88441AA513CB00FB503F /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A88431AA513CB00FB503F /* libstdc++.6.dylib */; };
+		2F3A88461AA513D500FB503F /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A88451AA513D500FB503F /* libxml2.2.dylib */; };
+		2F3A88481AA513F000FB503F /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A88471AA513F000FB503F /* Accelerate.framework */; };
+		2F3A884A1AA513F700FB503F /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A88491AA513F700FB503F /* AddressBook.framework */; };
+		2F3A884C1AA5140900FB503F /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A884B1AA5140900FB503F /* AddressBookUI.framework */; };
+		2F3A884E1AA5141200FB503F /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A884D1AA5141200FB503F /* AssetsLibrary.framework */; };
+		2F3A88501AA5141E00FB503F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A884F1AA5141E00FB503F /* AVFoundation.framework */; };
+		2F3A88521AA5143800FB503F /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A88511AA5143800FB503F /* CoreBluetooth.framework */; };
+		2F3A88541AA5143F00FB503F /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A88531AA5143F00FB503F /* CoreFoundation.framework */; };
+		2F3A88561AA5145800FB503F /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A88551AA5145800FB503F /* CoreImage.framework */; };
+		2F3A88581AA5147B00FB503F /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A88571AA5147B00FB503F /* CoreMedia.framework */; };
+		2F3A885A1AA5148E00FB503F /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A88591AA5148E00FB503F /* CoreTelephony.framework */; };
+		2F3A885C1AA5149800FB503F /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A885B1AA5149800FB503F /* CoreText.framework */; };
+		2F3A885E1AA514A100FB503F /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A885D1AA514A100FB503F /* CoreVideo.framework */; };
+		2F3A88601AA514AC00FB503F /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A885F1AA514AC00FB503F /* EventKit.framework */; };
+		2F3A88621AA514D000FB503F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A88611AA514D000FB503F /* Foundation.framework */; };
+		2F3A88641AA514E800FB503F /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A88631AA514E800FB503F /* ImageIO.framework */; };
+		2F3A88661AA514F000FB503F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A88651AA514F000FB503F /* MapKit.framework */; };
+		2F3A88681AA514F600FB503F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A88671AA514F600FB503F /* MediaPlayer.framework */; };
+		2F3A886A1AA5150900FB503F /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A88691AA5150900FB503F /* MessageUI.framework */; };
+		2F3A886C1AA5151900FB503F /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A886B1AA5151900FB503F /* OpenGLES.framework */; };
+		2F3A886E1AA5153800FB503F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A886D1AA5153800FB503F /* UIKit.framework */; };
+		2F3A88721AA53BB500FB503F /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F3A88711AA53BB500FB503F /* logo1.png */; };
+		2F3A88741AA53BBE00FB503F /* fbr.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F3A88731AA53BBE00FB503F /* fbr.png */; };
+		2F544F671AA2CFEB00DF616F /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F544F661AA2CFEB00DF616F /* TableViewController.m */; };
+		2FCE07F21AA1197100435BCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCE07F11AA1197100435BCF /* main.m */; };
+		2FCE07F51AA1197100435BCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCE07F41AA1197100435BCF /* AppDelegate.m */; };
+		2FCE07F81AA1197100435BCF /* Amicus1_0.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2FCE07F61AA1197100435BCF /* Amicus1_0.xcdatamodeld */; };
+		2FCE07FB1AA1197100435BCF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCE07FA1AA1197100435BCF /* ViewController.m */; };
+		2FCE07FE1AA1197100435BCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FCE07FC1AA1197100435BCF /* Main.storyboard */; };
+		2FCE08001AA1197100435BCF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FCE07FF1AA1197100435BCF /* Images.xcassets */; };
+		2FCE08031AA1197100435BCF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FCE08011AA1197100435BCF /* LaunchScreen.xib */; };
+		2FCE080F1AA1197100435BCF /* Amicus1_0Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCE080E1AA1197100435BCF /* Amicus1_0Tests.m */; };
+		2FCE08281AA11B7600435BCF /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FCE08231AA11B7600435BCF /* Parse.framework */; };
+		2FCE082A1AA11B7600435BCF /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FCE08251AA11B7600435BCF /* ParseFacebookUtils.framework */; };
+		2FCE082B1AA11B7600435BCF /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FCE08261AA11B7600435BCF /* ParseUI.framework */; };
+		2FCE082E1AA11BCC00435BCF /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FCE082D1AA11BCC00435BCF /* Accounts.framework */; };
+		2FCE08301AA11BD500435BCF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FCE082F1AA11BD500435BCF /* AudioToolbox.framework */; };
+		2FCE08321AA11BE400435BCF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FCE08311AA11BE400435BCF /* CFNetwork.framework */; };
+		2FCE08341AA11BED00435BCF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FCE08331AA11BED00435BCF /* CoreGraphics.framework */; };
+		2FCE08361AA11BF700435BCF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FCE08351AA11BF700435BCF /* CoreLocation.framework */; };
+		2FCE08381AA11C0100435BCF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FCE08371AA11C0100435BCF /* MobileCoreServices.framework */; };
+		2FCE083A1AA11C0A00435BCF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FCE08391AA11C0A00435BCF /* QuartzCore.framework */; };
+		2FCE083C1AA11C1200435BCF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FCE083B1AA11C1200435BCF /* Security.framework */; };
+		2FCE083E1AA11C1900435BCF /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FCE083D1AA11C1900435BCF /* Social.framework */; };
+		2FCE08401AA11C2300435BCF /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FCE083F1AA11C2300435BCF /* StoreKit.framework */; };
+		2FCE08421AA11C2C00435BCF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FCE08411AA11C2C00435BCF /* SystemConfiguration.framework */; };
+		2FCE08441AA11C3700435BCF /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FCE08431AA11C3700435BCF /* libz.dylib */; };
+		2FCE08461AA11C4000435BCF /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FCE08451AA11C4000435BCF /* libsqlite3.dylib */; };
+		771E47EC1AA3910F00315D49 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 771E47EB1AA3910F00315D49 /* CoreTelephony.framework */; };
+		771E47EE1AA3912C00315D49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 771E47ED1AA3912C00315D49 /* Foundation.framework */; };
+		771E47F01AA3913400315D49 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 771E47EF1AA3913400315D49 /* ImageIO.framework */; };
+		771E47F41AA3915D00315D49 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 771E47F31AA3915D00315D49 /* libstdc++.6.0.9.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FCE08091AA1197100435BCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FCE07E41AA1197100435BCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FCE07EB1AA1197100435BCF;
+			remoteInfo = Amicus1.0;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F1B7EFC1AA2659B008CEF16 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		2F1B7EFD1AA2659B008CEF16 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		2F3A88391AA5122C00FB503F /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		2F3A883B1AA512C300FB503F /* Moxtra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Moxtra.h; sourceTree = "<group>"; };
+		2F3A883C1AA512C300FB503F /* MoxtraConversationResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MoxtraConversationResources.bundle; sourceTree = "<group>"; };
+		2F3A883D1AA512C300FB503F /* MoxtraConversationSDK */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = MoxtraConversationSDK; sourceTree = "<group>"; };
+		2F3A883E1AA512C300FB503F /* MXClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXClient.h; sourceTree = "<group>"; };
+		2F3A88411AA513BD00FB503F /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		2F3A88431AA513CB00FB503F /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
+		2F3A88451AA513D500FB503F /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		2F3A88471AA513F000FB503F /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		2F3A88491AA513F700FB503F /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		2F3A884B1AA5140900FB503F /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		2F3A884D1AA5141200FB503F /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		2F3A884F1AA5141E00FB503F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2F3A88511AA5143800FB503F /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		2F3A88531AA5143F00FB503F /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		2F3A88551AA5145800FB503F /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		2F3A88571AA5147B00FB503F /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		2F3A88591AA5148E00FB503F /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		2F3A885B1AA5149800FB503F /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		2F3A885D1AA514A100FB503F /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		2F3A885F1AA514AC00FB503F /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		2F3A88611AA514D000FB503F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2F3A88631AA514E800FB503F /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		2F3A88651AA514F000FB503F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2F3A88671AA514F600FB503F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		2F3A88691AA5150900FB503F /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		2F3A886B1AA5151900FB503F /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		2F3A886D1AA5153800FB503F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2F3A88711AA53BB500FB503F /* logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo1.png; sourceTree = "<group>"; };
+		2F3A88731AA53BBE00FB503F /* fbr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fbr.png; sourceTree = "<group>"; };
+		2F544F651AA2CFEB00DF616F /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		2F544F661AA2CFEB00DF616F /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		2FCE07EC1AA1197100435BCF /* Amicus1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amicus1.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FCE07F01AA1197100435BCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FCE07F11AA1197100435BCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FCE07F31AA1197100435BCF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2FCE07F41AA1197100435BCF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2FCE07F71AA1197100435BCF /* Amicus1_0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Amicus1_0.xcdatamodel; sourceTree = "<group>"; };
+		2FCE07F91AA1197100435BCF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2FCE07FA1AA1197100435BCF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2FCE07FD1AA1197100435BCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FCE07FF1AA1197100435BCF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2FCE08021AA1197100435BCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2FCE08081AA1197100435BCF /* Amicus1.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Amicus1.0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FCE080D1AA1197100435BCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FCE080E1AA1197100435BCF /* Amicus1_0Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Amicus1_0Tests.m; sourceTree = "<group>"; };
+		2FCE08221AA11B7600435BCF /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		2FCE08231AA11B7600435BCF /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		2FCE08251AA11B7600435BCF /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		2FCE08261AA11B7600435BCF /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		2FCE082D1AA11BCC00435BCF /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		2FCE082F1AA11BD500435BCF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2FCE08311AA11BE400435BCF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		2FCE08331AA11BED00435BCF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2FCE08351AA11BF700435BCF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2FCE08371AA11C0100435BCF /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		2FCE08391AA11C0A00435BCF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2FCE083B1AA11C1200435BCF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2FCE083D1AA11C1900435BCF /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		2FCE083F1AA11C2300435BCF /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		2FCE08411AA11C2C00435BCF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2FCE08431AA11C3700435BCF /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		2FCE08451AA11C4000435BCF /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		771E47EB1AA3910F00315D49 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		771E47ED1AA3912C00315D49 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		771E47EF1AA3913400315D49 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		771E47F11AA3915100315D49 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		771E47F31AA3915D00315D49 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FCE07E91AA1197100435BCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F3A886E1AA5153800FB503F /* UIKit.framework in Frameworks */,
+				2FCE08381AA11C0100435BCF /* MobileCoreServices.framework in Frameworks */,
+				771E47F41AA3915D00315D49 /* libstdc++.6.0.9.dylib in Frameworks */,
+				771E47F01AA3913400315D49 /* ImageIO.framework in Frameworks */,
+				771E47EE1AA3912C00315D49 /* Foundation.framework in Frameworks */,
+				771E47EC1AA3910F00315D49 /* CoreTelephony.framework in Frameworks */,
+				2FCE08461AA11C4000435BCF /* libsqlite3.dylib in Frameworks */,
+				2FCE08441AA11C3700435BCF /* libz.dylib in Frameworks */,
+				2FCE08421AA11C2C00435BCF /* SystemConfiguration.framework in Frameworks */,
+				2FCE08401AA11C2300435BCF /* StoreKit.framework in Frameworks */,
+				2FCE083C1AA11C1200435BCF /* Security.framework in Frameworks */,
+				2FCE083A1AA11C0A00435BCF /* QuartzCore.framework in Frameworks */,
+				2F3A886C1AA5151900FB503F /* OpenGLES.framework in Frameworks */,
+				2FCE08381AA11C0100435BCF /* MobileCoreServices.framework in Frameworks */,
+				2F3A886A1AA5150900FB503F /* MessageUI.framework in Frameworks */,
+				2F3A88681AA514F600FB503F /* MediaPlayer.framework in Frameworks */,
+				2F3A88661AA514F000FB503F /* MapKit.framework in Frameworks */,
+				2F3A88641AA514E800FB503F /* ImageIO.framework in Frameworks */,
+				2F3A88621AA514D000FB503F /* Foundation.framework in Frameworks */,
+				2F3A88601AA514AC00FB503F /* EventKit.framework in Frameworks */,
+				2F3A885E1AA514A100FB503F /* CoreVideo.framework in Frameworks */,
+				2F3A885C1AA5149800FB503F /* CoreText.framework in Frameworks */,
+				2F3A885A1AA5148E00FB503F /* CoreTelephony.framework in Frameworks */,
+				2F3A88581AA5147B00FB503F /* CoreMedia.framework in Frameworks */,
+				2FCE08361AA11BF700435BCF /* CoreLocation.framework in Frameworks */,
+				2F3A88561AA5145800FB503F /* CoreImage.framework in Frameworks */,
+				2FCE08341AA11BED00435BCF /* CoreGraphics.framework in Frameworks */,
+				2F3A88541AA5143F00FB503F /* CoreFoundation.framework in Frameworks */,
+				2F3A88521AA5143800FB503F /* CoreBluetooth.framework in Frameworks */,
+				2FCE08321AA11BE400435BCF /* CFNetwork.framework in Frameworks */,
+				2F3A88501AA5141E00FB503F /* AVFoundation.framework in Frameworks */,
+				2F3A884E1AA5141200FB503F /* AssetsLibrary.framework in Frameworks */,
+				2F3A884C1AA5140900FB503F /* AddressBookUI.framework in Frameworks */,
+				2F3A884A1AA513F700FB503F /* AddressBook.framework in Frameworks */,
+				2F3A88481AA513F000FB503F /* Accelerate.framework in Frameworks */,
+				2FCE08441AA11C3700435BCF /* libz.dylib in Frameworks */,
+				2F3A88461AA513D500FB503F /* libxml2.2.dylib in Frameworks */,
+				2F3A88441AA513CB00FB503F /* libstdc++.6.dylib in Frameworks */,
+				2F3A88421AA513BD00FB503F /* libc++.dylib in Frameworks */,
+				2FCE08461AA11C4000435BCF /* libsqlite3.dylib in Frameworks */,
+				2F3A883A1AA5122C00FB503F /* FacebookSDK.framework in Frameworks */,
+				2FCE083E1AA11C1900435BCF /* Social.framework in Frameworks */,
+				2FCE08301AA11BD500435BCF /* AudioToolbox.framework in Frameworks */,
+				2F3A88401AA512C300FB503F /* MoxtraConversationSDK in Frameworks */,
+				2FCE082E1AA11BCC00435BCF /* Accounts.framework in Frameworks */,
+				2FCE08281AA11B7600435BCF /* Parse.framework in Frameworks */,
+				2FCE082B1AA11B7600435BCF /* ParseUI.framework in Frameworks */,
+				2FCE082A1AA11B7600435BCF /* ParseFacebookUtils.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FCE08051AA1197100435BCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FCE07E31AA1197100435BCF = {
+			isa = PBXGroup;
+			children = (
+				2F3A886D1AA5153800FB503F /* UIKit.framework */,
+				2F3A886B1AA5151900FB503F /* OpenGLES.framework */,
+				2F3A88691AA5150900FB503F /* MessageUI.framework */,
+				2F3A88671AA514F600FB503F /* MediaPlayer.framework */,
+				2F3A88651AA514F000FB503F /* MapKit.framework */,
+				2F3A88631AA514E800FB503F /* ImageIO.framework */,
+				2F3A88611AA514D000FB503F /* Foundation.framework */,
+				2F3A885F1AA514AC00FB503F /* EventKit.framework */,
+				2F3A885D1AA514A100FB503F /* CoreVideo.framework */,
+				2F3A885B1AA5149800FB503F /* CoreText.framework */,
+				2F3A88591AA5148E00FB503F /* CoreTelephony.framework */,
+				2F3A88571AA5147B00FB503F /* CoreMedia.framework */,
+				2F3A88551AA5145800FB503F /* CoreImage.framework */,
+				2F3A88531AA5143F00FB503F /* CoreFoundation.framework */,
+				2F3A88511AA5143800FB503F /* CoreBluetooth.framework */,
+				2F3A884F1AA5141E00FB503F /* AVFoundation.framework */,
+				2F3A884D1AA5141200FB503F /* AssetsLibrary.framework */,
+				2F3A884B1AA5140900FB503F /* AddressBookUI.framework */,
+				2F3A88491AA513F700FB503F /* AddressBook.framework */,
+				2F3A88471AA513F000FB503F /* Accelerate.framework */,
+				2F3A88451AA513D500FB503F /* libxml2.2.dylib */,
+				2F3A88431AA513CB00FB503F /* libstdc++.6.dylib */,
+				771E47F31AA3915D00315D49 /* libstdc++.6.0.9.dylib */,
+				771E47F11AA3915100315D49 /* libstdc++.dylib */,
+				771E47EF1AA3913400315D49 /* ImageIO.framework */,
+				771E47ED1AA3912C00315D49 /* Foundation.framework */,
+				771E47EB1AA3910F00315D49 /* CoreTelephony.framework */,
+				2FCE07EE1AA1197100435BCF /* Amicus1.0 */,
+				2FCE080B1AA1197100435BCF /* Amicus1.0Tests */,
+				2FCE07ED1AA1197100435BCF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FCE07ED1AA1197100435BCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FCE07EC1AA1197100435BCF /* Amicus1.0.app */,
+				2FCE08081AA1197100435BCF /* Amicus1.0Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FCE07EE1AA1197100435BCF /* Amicus1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				2FCE082C1AA11B8900435BCF /* Frameworks */,
+				2FCE07F31AA1197100435BCF /* AppDelegate.h */,
+				2F3A88731AA53BBE00FB503F /* fbr.png */,
+				2F3A88711AA53BB500FB503F /* logo1.png */,
+				2F1B7EFC1AA2659B008CEF16 /* TableViewCell.h */,
+				2F1B7EFD1AA2659B008CEF16 /* TableViewCell.m */,
+				2FCE07F41AA1197100435BCF /* AppDelegate.m */,
+				2FCE07F91AA1197100435BCF /* ViewController.h */,
+				2FCE07FA1AA1197100435BCF /* ViewController.m */,
+				2FCE07FC1AA1197100435BCF /* Main.storyboard */,
+				2F544F651AA2CFEB00DF616F /* TableViewController.h */,
+				2F544F661AA2CFEB00DF616F /* TableViewController.m */,
+				2FCE07FF1AA1197100435BCF /* Images.xcassets */,
+				2FCE08011AA1197100435BCF /* LaunchScreen.xib */,
+				2FCE07F61AA1197100435BCF /* Amicus1_0.xcdatamodeld */,
+				2FCE07EF1AA1197100435BCF /* Supporting Files */,
+			);
+			path = Amicus1.0;
+			sourceTree = "<group>";
+		};
+		2FCE07EF1AA1197100435BCF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FCE07F01AA1197100435BCF /* Info.plist */,
+				2FCE07F11AA1197100435BCF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FCE080B1AA1197100435BCF /* Amicus1.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2FCE080E1AA1197100435BCF /* Amicus1_0Tests.m */,
+				2FCE080C1AA1197100435BCF /* Supporting Files */,
+			);
+			path = Amicus1.0Tests;
+			sourceTree = "<group>";
+		};
+		2FCE080C1AA1197100435BCF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FCE080D1AA1197100435BCF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FCE082C1AA11B8900435BCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F3A883B1AA512C300FB503F /* Moxtra.h */,
+				2F3A883C1AA512C300FB503F /* MoxtraConversationResources.bundle */,
+				2F3A883D1AA512C300FB503F /* MoxtraConversationSDK */,
+				2F3A883E1AA512C300FB503F /* MXClient.h */,
+				2F3A88391AA5122C00FB503F /* FacebookSDK.framework */,
+				2FCE08451AA11C4000435BCF /* libsqlite3.dylib */,
+				2FCE08431AA11C3700435BCF /* libz.dylib */,
+				2FCE083D1AA11C1900435BCF /* Social.framework */,
+				2FCE083F1AA11C2300435BCF /* StoreKit.framework */,
+				2FCE083B1AA11C1200435BCF /* Security.framework */,
+				2FCE08391AA11C0A00435BCF /* QuartzCore.framework */,
+				2FCE08371AA11C0100435BCF /* MobileCoreServices.framework */,
+				2FCE08351AA11BF700435BCF /* CoreLocation.framework */,
+				2FCE08331AA11BED00435BCF /* CoreGraphics.framework */,
+				2FCE08311AA11BE400435BCF /* CFNetwork.framework */,
+				2FCE082F1AA11BD500435BCF /* AudioToolbox.framework */,
+				2FCE08411AA11C2C00435BCF /* SystemConfiguration.framework */,
+				2FCE082D1AA11BCC00435BCF /* Accounts.framework */,
+				2FCE08261AA11B7600435BCF /* ParseUI.framework */,
+				2FCE08251AA11B7600435BCF /* ParseFacebookUtils.framework */,
+				2FCE08231AA11B7600435BCF /* Parse.framework */,
+				2FCE08221AA11B7600435BCF /* Bolts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FCE07EB1AA1197100435BCF /* Amicus1.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FCE08121AA1197200435BCF /* Build configuration list for PBXNativeTarget "Amicus1.0" */;
+			buildPhases = (
+				2FCE07E81AA1197100435BCF /* Sources */,
+				2FCE07E91AA1197100435BCF /* Frameworks */,
+				2FCE07EA1AA1197100435BCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Amicus1.0;
+			productName = Amicus1.0;
+			productReference = 2FCE07EC1AA1197100435BCF /* Amicus1.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FCE08071AA1197100435BCF /* Amicus1.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FCE08151AA1197200435BCF /* Build configuration list for PBXNativeTarget "Amicus1.0Tests" */;
+			buildPhases = (
+				2FCE08041AA1197100435BCF /* Sources */,
+				2FCE08051AA1197100435BCF /* Frameworks */,
+				2FCE08061AA1197100435BCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FCE080A1AA1197100435BCF /* PBXTargetDependency */,
+			);
+			name = Amicus1.0Tests;
+			productName = Amicus1.0Tests;
+			productReference = 2FCE08081AA1197100435BCF /* Amicus1.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FCE07E41AA1197100435BCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = edu.saiteja;
+				TargetAttributes = {
+					2FCE07EB1AA1197100435BCF = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 4MHGB5N6RT;
+					};
+					2FCE08071AA1197100435BCF = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = B2UF57NS2J;
+						TestTargetID = 2FCE07EB1AA1197100435BCF;
+					};
+				};
+			};
+			buildConfigurationList = 2FCE07E71AA1197100435BCF /* Build configuration list for PBXProject "Amicus1.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FCE07E31AA1197100435BCF;
+			productRefGroup = 2FCE07ED1AA1197100435BCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FCE07EB1AA1197100435BCF /* Amicus1.0 */,
+				2FCE08071AA1197100435BCF /* Amicus1.0Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FCE07EA1AA1197100435BCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F3A88741AA53BBE00FB503F /* fbr.png in Resources */,
+				2FCE07FE1AA1197100435BCF /* Main.storyboard in Resources */,
+				2FCE08031AA1197100435BCF /* LaunchScreen.xib in Resources */,
+				2FCE08001AA1197100435BCF /* Images.xcassets in Resources */,
+				2F3A88721AA53BB500FB503F /* logo1.png in Resources */,
+				2F3A883F1AA512C300FB503F /* MoxtraConversationResources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FCE08061AA1197100435BCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FCE07E81AA1197100435BCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FCE07F81AA1197100435BCF /* Amicus1_0.xcdatamodeld in Sources */,
+				2F544F671AA2CFEB00DF616F /* TableViewController.m in Sources */,
+				2F1B7EFE1AA2659B008CEF16 /* TableViewCell.m in Sources */,
+				2FCE07F51AA1197100435BCF /* AppDelegate.m in Sources */,
+				2FCE07FB1AA1197100435BCF /* ViewController.m in Sources */,
+				2FCE07F21AA1197100435BCF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FCE08041AA1197100435BCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FCE080F1AA1197100435BCF /* Amicus1_0Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FCE080A1AA1197100435BCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FCE07EB1AA1197100435BCF /* Amicus1.0 */;
+			targetProxy = 2FCE08091AA1197100435BCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FCE07FC1AA1197100435BCF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FCE07FD1AA1197100435BCF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FCE08011AA1197100435BCF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FCE08021AA1197100435BCF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FCE08101AA1197100435BCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2FCE08111AA1197100435BCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FCE08131AA1197200435BCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Amicus1.0",
+					/Users/saiteja64/Documents/FacebookSDK,
+				);
+				INFOPLIST_FILE = Amicus1.0/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-Xlinker",
+					"-lc++",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		2FCE08141AA1197200435BCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Amicus1.0",
+					/Users/saiteja64/Documents/FacebookSDK,
+				);
+				INFOPLIST_FILE = Amicus1.0/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		2FCE08161AA1197200435BCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Amicus1.0Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amicus1.0.app/Amicus1.0";
+			};
+			name = Debug;
+		};
+		2FCE08171AA1197200435BCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Amicus1.0Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amicus1.0.app/Amicus1.0";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FCE07E71AA1197100435BCF /* Build configuration list for PBXProject "Amicus1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FCE08101AA1197100435BCF /* Debug */,
+				2FCE08111AA1197100435BCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FCE08121AA1197200435BCF /* Build configuration list for PBXNativeTarget "Amicus1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FCE08131AA1197200435BCF /* Debug */,
+				2FCE08141AA1197200435BCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FCE08151AA1197200435BCF /* Build configuration list for PBXNativeTarget "Amicus1.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FCE08161AA1197200435BCF /* Debug */,
+				2FCE08171AA1197200435BCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2FCE07F61AA1197100435BCF /* Amicus1_0.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2FCE07F71AA1197100435BCF /* Amicus1_0.xcdatamodel */,
+			);
+			currentVersion = 2FCE07F71AA1197100435BCF /* Amicus1_0.xcdatamodel */;
+			path = Amicus1_0.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2FCE07E41AA1197100435BCF /* Project object */;
+}
