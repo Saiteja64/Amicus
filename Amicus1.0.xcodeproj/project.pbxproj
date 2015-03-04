@@ -10,7 +10,6 @@
 		2F1B7EFE1AA2659B008CEF16 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B7EFD1AA2659B008CEF16 /* TableViewCell.m */; };
 		2F3A883A1AA5122C00FB503F /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A88391AA5122C00FB503F /* FacebookSDK.framework */; };
 		2F3A883F1AA512C300FB503F /* MoxtraConversationResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2F3A883C1AA512C300FB503F /* MoxtraConversationResources.bundle */; };
-		2F3A88401AA512C300FB503F /* MoxtraConversationSDK in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A883D1AA512C300FB503F /* MoxtraConversationSDK */; };
 		2F3A88421AA513BD00FB503F /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A88411AA513BD00FB503F /* libc++.dylib */; };
 		2F3A88441AA513CB00FB503F /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A88431AA513CB00FB503F /* libstdc++.6.dylib */; };
 		2F3A88461AA513D500FB503F /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A88451AA513D500FB503F /* libxml2.2.dylib */; };
@@ -37,6 +36,7 @@
 		2F3A88721AA53BB500FB503F /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F3A88711AA53BB500FB503F /* logo1.png */; };
 		2F3A88741AA53BBE00FB503F /* fbr.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F3A88731AA53BBE00FB503F /* fbr.png */; };
 		2F544F671AA2CFEB00DF616F /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F544F661AA2CFEB00DF616F /* TableViewController.m */; };
+		2FAC64EE1AA5913F00064EF8 /* MoxtraConversationSDK in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FAC64ED1AA5913F00064EF8 /* MoxtraConversationSDK */; };
 		2FCE07F21AA1197100435BCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCE07F11AA1197100435BCF /* main.m */; };
 		2FCE07F51AA1197100435BCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCE07F41AA1197100435BCF /* AppDelegate.m */; };
 		2FCE07F81AA1197100435BCF /* Amicus1_0.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2FCE07F61AA1197100435BCF /* Amicus1_0.xcdatamodeld */; };
@@ -83,7 +83,6 @@
 		2F3A88391AA5122C00FB503F /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		2F3A883B1AA512C300FB503F /* Moxtra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Moxtra.h; sourceTree = "<group>"; };
 		2F3A883C1AA512C300FB503F /* MoxtraConversationResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MoxtraConversationResources.bundle; sourceTree = "<group>"; };
-		2F3A883D1AA512C300FB503F /* MoxtraConversationSDK */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = MoxtraConversationSDK; sourceTree = "<group>"; };
 		2F3A883E1AA512C300FB503F /* MXClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXClient.h; sourceTree = "<group>"; };
 		2F3A88411AA513BD00FB503F /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 		2F3A88431AA513CB00FB503F /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
@@ -112,6 +111,7 @@
 		2F3A88731AA53BBE00FB503F /* fbr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fbr.png; sourceTree = "<group>"; };
 		2F544F651AA2CFEB00DF616F /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		2F544F661AA2CFEB00DF616F /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		2FAC64ED1AA5913F00064EF8 /* MoxtraConversationSDK */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = MoxtraConversationSDK; path = ../MoxtraConversationSDK; sourceTree = "<group>"; };
 		2FCE07EC1AA1197100435BCF /* Amicus1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amicus1.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FCE07F01AA1197100435BCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FCE07F11AA1197100435BCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -168,6 +168,7 @@
 				2FCE083C1AA11C1200435BCF /* Security.framework in Frameworks */,
 				2FCE083A1AA11C0A00435BCF /* QuartzCore.framework in Frameworks */,
 				2F3A886C1AA5151900FB503F /* OpenGLES.framework in Frameworks */,
+				2FAC64EE1AA5913F00064EF8 /* MoxtraConversationSDK in Frameworks */,
 				2FCE08381AA11C0100435BCF /* MobileCoreServices.framework in Frameworks */,
 				2F3A886A1AA5150900FB503F /* MessageUI.framework in Frameworks */,
 				2F3A88681AA514F600FB503F /* MediaPlayer.framework in Frameworks */,
@@ -198,7 +199,6 @@
 				2F3A883A1AA5122C00FB503F /* FacebookSDK.framework in Frameworks */,
 				2FCE083E1AA11C1900435BCF /* Social.framework in Frameworks */,
 				2FCE08301AA11BD500435BCF /* AudioToolbox.framework in Frameworks */,
-				2F3A88401AA512C300FB503F /* MoxtraConversationSDK in Frameworks */,
 				2FCE082E1AA11BCC00435BCF /* Accounts.framework in Frameworks */,
 				2FCE08281AA11B7600435BCF /* Parse.framework in Frameworks */,
 				2FCE082B1AA11B7600435BCF /* ParseUI.framework in Frameworks */,
@@ -313,9 +313,9 @@
 		2FCE082C1AA11B8900435BCF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2FAC64ED1AA5913F00064EF8 /* MoxtraConversationSDK */,
 				2F3A883B1AA512C300FB503F /* Moxtra.h */,
 				2F3A883C1AA512C300FB503F /* MoxtraConversationResources.bundle */,
-				2F3A883D1AA512C300FB503F /* MoxtraConversationSDK */,
 				2F3A883E1AA512C300FB503F /* MXClient.h */,
 				2F3A88391AA5122C00FB503F /* FacebookSDK.framework */,
 				2FCE08451AA11C4000435BCF /* libsqlite3.dylib */,

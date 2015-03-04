@@ -10,31 +10,31 @@
 	<string>Amicus1.0</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>70D70DD249BD4500B6B32B5ED6E2AC01653B54EF</key>
-		<string>https://github.com/Saiteja64/Amicus1.0.git</string>
+		<key>E20C321E7F59687A3FA5CA396EF2A72333BD162A</key>
+		<string>https://github.com/Saiteja64/Amicus.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Amicus1.0/Amicus1.0.xcodeproj</string>
+	<string>Amicus1.0.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>70D70DD249BD4500B6B32B5ED6E2AC01653B54EF</key>
-		<string>../../..</string>
+		<key>E20C321E7F59687A3FA5CA396EF2A72333BD162A</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/Saiteja64/Amicus1.0.git</string>
+	<string>https://github.com/Saiteja64/Amicus.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>70D70DD249BD4500B6B32B5ED6E2AC01653B54EF</string>
+	<string>E20C321E7F59687A3FA5CA396EF2A72333BD162A</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>70D70DD249BD4500B6B32B5ED6E2AC01653B54EF</string>
+			<string>E20C321E7F59687A3FA5CA396EF2A72333BD162A</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Amicus1.0</string>
+			<string>Amicus1</string>
 		</dict>
 	</array>
 </dict>

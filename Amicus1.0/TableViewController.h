@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Moxtra.h"
 
-@interface TableViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+@interface TableViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, MXClientChatDelegate>
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
+@property (strong, nonatomic) NSMutableArray * chatlist;
+
 
 @end

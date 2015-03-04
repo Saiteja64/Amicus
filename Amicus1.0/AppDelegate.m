@@ -10,7 +10,7 @@
 #import <Parse/Parse.h>
 #import <FacebookSDK/FacebookSDK.h>
 #import <ParseFacebookUtils/PFFacebookUtils.h>
-
+#import "ViewController.h"
 #import "Moxtra.h"
 #import "MXClient.h"
 
@@ -35,6 +35,13 @@
                   clientKey:@"5Ydf5dAmA8CoAmbqcLnyKjkpnLvNaQlqyDpdXioB"];
     
     [PFFacebookUtils initializeFacebook];
+    
+    
+    ViewController * viewController = [[ViewController alloc]init];
+    
+    _navigationController = [[UINavigationController alloc]
+                            initWithRootViewController:viewController];
+    [self.window addSubview:_navigationController.view];
     return YES;
 }
 

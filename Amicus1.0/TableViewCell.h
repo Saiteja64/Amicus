@@ -13,4 +13,5 @@
 @property (nonatomic, weak) IBOutlet UILabel *nameLabel;
 @property (nonatomic, weak) IBOutlet UILabel *distanceLabel;
 @property (nonatomic, weak) IBOutlet UIImageView * proPic;
+@property (nonatomic, weak) NSString * fbId;
 @end

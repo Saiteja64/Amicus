@@ -11,6 +11,7 @@
 #import <ParseFacebookUtils/PFFacebookUtils.h>
 #import <CoreLocation/CoreLocation.h>
 #import "TableViewController.h"
+#import "Moxtra.h"
 
 
 
@@ -26,6 +27,7 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
+    
     fbfriendsnearby = [[NSMutableArray alloc]initWithCapacity:50];
     location1 = [[CLLocation alloc]init];
     [super viewDidLoad];
@@ -62,13 +64,16 @@
         // handle response
         if (!error) {
             
-            
+            NSUserDefaults * defaults = [NSUserDefaults standardUserDefaults];
             
             // Parse the data received
             
             NSDictionary *userData = (NSDictionary *)result;
             
             NSString *facebookID = userData[@"id"];
+            
+            [defaults setObject:facebookID forKey:@"fbId"];
+            
             
             NSLog(@"%@",userData);
             
@@ -84,6 +89,7 @@
                 userProfile[@"name"] = name;
                 NSLog(name);
             }
+            [defaults setObject:name forKey:@"naam"];
             
             NSString *location = userData[@"location"][@"name"];
             if (location) {
@@ -342,7 +348,7 @@
 {
     NSUserDefaults * defaults = [NSUserDefaults standardUserDefaults];
     NSMutableArray * names = [[NSMutableArray alloc]initWithCapacity:10];
-    NSMutableArray * statuses = [[NSMutableArray alloc]initWithCapacity:10];
+    NSMutableArray * ids = [[NSMutableArray alloc]initWithCapacity:10];
     NSMutableArray * distances = [[NSMutableArray alloc]initWithCapacity:10];
     NSMutableArray * images = [[NSMutableArray alloc]initWithCapacity:10];
     
@@ -354,8 +360,9 @@
         [names addObject:name];
         NSLog(@"debugpoint1%@",name);
     
-        NSString * status = [array objectAtIndex:i][@"profile"][@"relationship"];
+        NSString * status = [array objectAtIndex:i][@"profile"][@"facebookId"];
          NSLog(@"debugpoint2%@",status);
+        [ids addObject:status];
        
         
         NSString * imageURL = [array objectAtIndex:i][@"profile"][@"pictureURL"];
@@ -385,6 +392,7 @@
     [defaults setObject:names forKey:@"names"];
     [defaults setObject:distances forKey:@"distances"];
     [defaults setObject:images forKey:@"images"];
+    [defaults setObject:ids forKey:@"ids"];
 }
 
     @end
