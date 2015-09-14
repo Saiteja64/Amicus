@@ -1,2 +1,2 @@
 # Amicus
-Stay Connected All The Time with Facebook Friends.
+Stay Connected All The Time with Facebook Friends!
